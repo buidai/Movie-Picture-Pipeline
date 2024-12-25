@@ -9,7 +9,6 @@ on:
     paths:
       # This will only run on changes to the backend code
       - "backend/**"
-
 jobs:
   lint:
     name: Backend run lint
